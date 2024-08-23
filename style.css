@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #130f1e;
+  font-family: "Roboto", sans-serif;
+  color: #ffff;
+}
+#intro {
+  margin-top: 30px;
+  padding: 0 0 32px;
+}
+#intro p {
+  margin-top: 8px;
+}
+#tabeladebutao {
+  border: 1px solid red;
+
+}
+th{
+ background-color: #8257E5;
+padding: 20px;
+text-align: center;
+align-items: center;
+border-style: none;
+}
+td{
+  padding: 32px;
+  text-align: center;
+  align-items: center;
+}
