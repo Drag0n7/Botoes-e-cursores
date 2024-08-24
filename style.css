@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #130f1e;
+  background: #0b0911;
   font-family: "Roboto", sans-serif;
   color: #ffff;
 }
@@ -16,18 +16,29 @@ body {
   margin-top: 8px;
 }
 #tabeladebutao {
-  border: 1px solid red;
+  
+}   
+table {
+  border: 5px solid #1C162C;
+  border-collapse: collapse;
+  background-color: #1c162c;
 
+  border-radius: 8px ;
 }
-th{
- background-color: #8257E5;
-padding: 20px;
-text-align: center;
-align-items: center;
-border-style: none;
-}
-td{
-  padding: 32px;
+th {
+  padding: 20px;
   text-align: center;
   align-items: center;
+
+}
+td {
+  
+  text-align: center;
+  align-items: center;
+  background-color: #0b0911;
+}
+.line1  {
+  background-color: #8257E5;
+  padding: 24px 12px;
+  border-radius: 24px;
 }
