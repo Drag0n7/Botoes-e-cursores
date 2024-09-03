@@ -15,9 +15,7 @@ body {
 #intro p {
   margin-top: 8px;
 }
-#tabeladebutao {
-  
-}   
+
 table {
   border: 5px solid #1C162C;
   border-collapse: collapse;
@@ -25,11 +23,15 @@ table {
 
   border-radius: 8px ;
 }
-th {
-  padding: 20px;
-  text-align: center;
-  align-items: center;
 
+tr th{}
+th .head{
+  display: flex;
+  width: 233px;
+  height: 33px;
+padding: 10px;
+justify-content: center;
+place-items: center;
 }
 td {
   
