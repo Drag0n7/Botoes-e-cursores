@@ -76,7 +76,6 @@ body {
   flex-direction: column;
   border: 1px solid red;
   grid-area: D;
-  justify-content: center;
   align-items: center;
   width: 213px;
   height: 448px;
@@ -88,64 +87,125 @@ body {
   align-items: center;
   border: 1px solid red;
   border-radius: 24px;
-}
-.col1 .b1 {
-  width: 176px;
   height: 48px;
   background-color: #8257e5;
 }
-.col1 .b2 {
+#b1 {
+  width: 176px;
+}
+#b2 {
   width: 162px;
-  height: 48px;
   background-color: #9674e5;
 }
-.col1 .b3 {
+#b3 {
   width: 163px;
-  height: 48px;
-  background-color: #8257e5;
   border-color: #d9cdf7;
   border: 2px solid;
 }
-.col1 .b4 {
+#b4 {
   width: 183px;
-  height: 48px;
-  background-color: #8257e5;
   opacity: 56%;
 }
-.col1 .b5 {
+#b5 {
   gap: 8px;
   padding: 24px 12px;
   width: 201px;
-  height: 48px;
-  background-color: #8257e5;
 }
-.col1 .b6 {
+#b6 {
   gap: 8px;
   padding: 24px 12px;
   width: 213px;
-  height: 48px;
-  background-color: #8257e5;
-  
 }
 .col2 {
-  grid-area: F;
   display: flex;
   flex-direction: column;
   border: 1px solid red;
-  justify-content: center;
+  grid-area: F;
   align-items: center;
-  width: 213px;
+  width: 238px;
   height: 448px;
   gap: 32px;
-  justify-content: space-between;
 }
 .col2 p {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid red;
-  width: 176px;
   height: 48px;
-  background-color: #8257e5;
+  background-color: #3c3748;
   border-radius: 24px;
+}
+#b7 {
+  width: 200px;
+}
+#b8 {
+  width: 187px;
+  background-color: #6A617F;
+}
+#b9 {
+  width: 187px;
+  border-color: #d9cdf7;
+  border: 2px solid;
+}
+#b10 {
+  width: 207px;
+  opacity: 56%;
+}
+#b11 {
+  gap: 8px;
+  padding: 24px 12px;
+  width: 225px;
+}
+#b12 {
+  gap: 8px;
+  padding: 24px 12px;
+  width: 238px;
+}
+.col3 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  grid-area: G;
+  align-items: center;
+  width: 230px;
+  height: 448px;
+  gap: 32px;
+}
+.col3 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  height: 48px;
+  background-color: #0B0911;
+  border-radius: 24px;
+}
+#b13 {
+  width: 181px;
+}
+#b14 {
+  width: 168px;
+}
+#b15 {
+  width: 168px;
+  border-color: #d9cdf7;
+  border: 2px solid;
+}
+#b16 {
+  width: 188px;
+  opacity: 56%;
+}
+#b17 {
+  gap: 8px;
+  padding: 24px 12px;
+  width: 215px;
+  
+}
+#b18 {
+  gap: 8px;
+  padding: 24px 12px;
+  width: 230px;
+}
+.col3 p:hover{
+  background-color: #9674e5;
 }
