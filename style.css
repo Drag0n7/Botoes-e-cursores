@@ -18,7 +18,8 @@ body {
 #tabela {
   border: 1px solid red;
   display: grid;
-  grid-template-columns: max-content max-content;
+  width: 963px;
+  height: 576px;
   grid-template-areas:
     "A B"
     "C D";
@@ -54,6 +55,9 @@ body {
   padding: 15.5px 16px;
   gap: 32px;
   background-color: #1c162c;
+
+  width: 865px;
+  height: 64px;
 }
 .tablehead p {
   display: flex;
@@ -68,8 +72,9 @@ body {
   padding: 32px;
   display: grid;
   gap: 32px;
-  grid-template-columns: max-content max-content;
-  grid-template-areas: "D F G";
+  width: 865px;
+  height: 576px;
+  grid-template-areas: "D E F G";
 }
 .col1 {
   display: flex;
@@ -116,11 +121,15 @@ body {
   padding: 24px 12px;
   width: 213px;
 }
+.col1 .ho:hover {
+  background-color: #9674e5;
+  transition: background 0.4s;
+}
 .col2 {
   display: flex;
   flex-direction: column;
   border: 1px solid red;
-  grid-area: F;
+  grid-area: E;
   align-items: center;
   width: 238px;
   height: 448px;
@@ -140,8 +149,9 @@ body {
 }
 #b8 {
   width: 187px;
-  background-color: #6A617F;
+  background-color: #6a617f;
 }
+
 #b9 {
   width: 187px;
   border-color: #d9cdf7;
@@ -161,11 +171,19 @@ body {
   padding: 24px 12px;
   width: 238px;
 }
+.col2 .ho:hover {
+  background-color: #9674e5;
+  transition: background 0.4s;
+}
+.col2 #b8:hover {
+  background-color: #9674e5;
+  transition: background 0.4s;
+}
 .col3 {
   display: flex;
   flex-direction: column;
   border: 1px solid red;
-  grid-area: G;
+  grid-area: F;
   align-items: center;
   width: 230px;
   height: 448px;
@@ -177,7 +195,7 @@ body {
   align-items: center;
   border: 1px solid red;
   height: 48px;
-  background-color: #0B0911;
+  background-color: #0b0911;
   border-radius: 24px;
 }
 #b13 {
@@ -199,13 +217,30 @@ body {
   gap: 8px;
   padding: 24px 12px;
   width: 215px;
-  
 }
 #b18 {
   gap: 8px;
   padding: 24px 12px;
   width: 230px;
 }
-.col3 p:hover{
+.col3 .ho:hover {
   background-color: #9674e5;
+  transition: background 0.4s;
+}
+
+#col4 {
+  grid-area: G;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  width: 48px;
+  height: 448px;
+  gap: 32px;
+
+  align-items: center;
+}
+#col4 .cursor {
+  height: 48px;
+  width: 34px;
+  border: 1px solid red;
 }
